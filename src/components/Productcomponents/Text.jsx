@@ -1,5 +1,6 @@
 import React from "react";
 import { gwagons } from "../../images/index";
+import { redgwagon } from "../../images/index";
 
 function TextImageSection() {
   return (
@@ -32,7 +33,7 @@ function TextImageSection() {
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
           <img
-            src="https://via.placeholder.com/400"
+            src={redgwagon}
             alt="Brainstorming session"
             className="w-full h-auto object-cover rounded-lg shadow-md"
           />
